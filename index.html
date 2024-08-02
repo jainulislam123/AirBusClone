@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Red Bus Clone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/rdc-redbus-logo.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+   
+   <!-- ========== Start MobileView ========== -->
+    <section class="HeadSecttion">
+       <div class="mobileResponsive">
+        <header class="MobileHeader">
+          <nav class="MobileNav">
+              <div class="menuLogo">
+                <span id="Menu"><i class="fa-solid fa-bars"></i></span>
+                <img src="./assets/rdc-redbus-logo.svg" alt="Logo" />
+              </div>
+            <div class="infoNav">
+              <div class="support">
+                <span
+                  ><img
+                    src="./assets/headphones-support.svg"
+                    alt="headphone"
+                    width="20px" /></span>
+              </div>
+              <div class="User">
+                <span 
+                  ><img src="./assets/account.png" alt="" width="20px" /></span>
+                  <ul class="userList">
+                    <li value="">Cancel Ticket</li>
+                    <li value="">Change Travel Date</li>
+                    <li value="">Show My Ticket</li>
+                    <li value="">Email/SMS</li>
+                    <hr />
+                    <span><li value="">Login/Signup</li></span>
+                  </ul>
+                </span>
+              </div>
+            </div>
+          </nav> <hr>
+          <div class="logos2Section">
+            <div class="logoTwo">
+              <img src="./assets/rdc-redbus-logo.svg" alt="Logo" />
+              <p>Bus tickets</p>
+            </div>
+            
+             <div class="logoThree">
+              <span
+                ><i class="fa-solid fa-indian-rupee-sign"></i> 80 off</span
+              >
+              <img src="./assets/rail_vertical.svg" alt="Logo" />
+              <p>Books Train tickets</p>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="sideNav" id="SideNav">
+        <ul>
+          <li><span><i class="fa-solid fa-user-tie"></i></span>
+          <span>Sign in/Sign Up</span>
+        </li>
+          <li><span><i class="fa-solid fa-magnifying-glass"></i></span>
+          <span>Search Buses</span>
+        </li>
+        </li>
+          <li><span><i class="fa-regular fa-star"></i></span>
+          <span>Offers</span>
+        </li>
+          <li><span><i class="fa-solid fa-users"></i></span>
+          <span>Reffers & Earn</span>
+        </li>
+        </li>
+          <li><span><i class="fa-solid fa-circle-question"></i></span>
+          <span>Help</span>
+        </li>
+        </li>
+          <li><span><i class="fa-solid fa-clock-rotate-left"></i></span>
+          <span>Reschedule Tickets</span>
+        </li>
+          <li><span><i class="fa-solid fa-gear"></i></span>
+          <span>Settings</span>
+        </li>
+
+        </ul>
+      </div>
+      </section>
+   
+ <!-- ========== End MobileView ========== -->
+
+
+
+ <!-- ========== Start Destop View ========== -->
+ <!-- ========== Start header ========== -->
+
+      <header class="Header " >
+        <nav class="nav">
+          <div class="logosSection">
+            <div class="logoOne">
+              <img src="./assets/rdc-redbus-logo.svg" alt="Logo" />
+            </div>
+            <div class="logos2Section">
+              <div class="logoTwo">
+                <img src="./assets/rdc-redbus-logo.svg" alt="Logo" />
+                <p>Bus tickets</p>
+              </div>
+              
+               <div class="logoThree">
+                <span
+                  ><i class="fa-solid fa-indian-rupee-sign"></i> 80 off</span
+                >
+                <img src="./assets/rail_vertical.svg" alt="Logo" />
+                <p>Train tickets</p>
+              </div>
+            </div>
+          </div>
+          <div class="infoNav">
+            <div class="support">
+              <span
+                ><img
+                  src="./assets/headphones-support.svg"
+                  alt="headphone"
+                  width="20px" /></span
+              ><span>Help</span>
+            </div>
+            <div class="User">
+              <span
+                ><img src="./assets/account.png" alt="" width="20px" /></span>
+                <span id="AccoutOpen">Account <i class="fa-solid fa-angle-down"></i></span>
+                <ul class="userList"  id="user">
+                  <li value="">Cancel Ticket</li>
+                  <li value="">Change Travel Date</li>
+                  <li value="">Show My Ticket</li>
+                  <li value="">Email/SMS</li>
+                  <hr />
+                  <span><li value="">Login/Signup</li></span>
+                </ul>
+              </span>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <!-- ========== End header ========== -->
+     <!-- ========== Start Hero Section ========== -->
+     
+<section id="heroSection">
+    <div class="heroContent">
+      
+<div class="headlineText">
+    <h1>India's No. 1 Online Bus Ticket Booking Site</h1>
+</div>
+<div class="ticketBookingText">
+  <h3>Bus Ticket Booking</h3>
+  <p>Assured seat of your choice</p>
+</div>
+<div class="formSection">
+  <div class="from" >
+    <label for="form"> <span><img src="./assets/from.png" alt="frombus" width="30px"></span><p>From</p></label>
+ <input type="text" id="form" placeholder="From">
+  </div>
+  <div class="to">
+    <label for="to"> <span><img src="./assets/to.png" alt="tobus" width="30px"></span><p>To</p></label>
+    <input type="text" id="to" placeholder="To">
+  </div>
+  <div class="date">
+    <label for="date"> <span><img src="./assets/date.png" alt="tobus" width="30px"></span><p>Date</p></label>
+    <input type="date" id="date" value="2024-06-12">
+  </div>
+   
+   <div class="searchButton ">
+     <button type="submit" >SEARCH BUSES</button>
+ 
+   </div>
+   
+</div>
+<div class="headlineText">
+    <h1 style="color: rgba(255, 255, 0, 0.733);">Apno ko, Sapno ko Kareeb Laaye.</h1>
+</div>
+ 
+</div>
+</section>
+<!-- ========== End Hero Section ========== -->
+
+<!-- ========== Start Offer ========== -->
+ <section id="OfferSecion">
+  <div class="offerHeading">
+    <h1>TRENDING OFFERS</h1>
+    <h3>View All</h3>
+
+  </div>
+
+   <div class="TrendingOffer ">
+<div class="arrow" >
+  <span id="leftArow" onclick="LeftFunc()"> <i class="fa-solid fa-angle-left"></i></span>
+    <span id="rightArrow" onclick="RightFunc()"> <i class="fa-solid fa-angle-right"></i></span>
+</div>
+
+<div class="offerBox">
+  <div class="offerBox boxOne">
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 1.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 250 on bus tickets</h3>
+    <p>Valid till 30 Sep</p>
+    <span>FIRST </span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+
+
+
+  <div class="offerBox boxTwo" >
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 2.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 300 in AP,TS routes</h3>
+    <p>Valid till 30 Sep</p>
+    <span>SUPERHITS</span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+
+
+  <div class="offerBox boxThree" >
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 3.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 200 in Gujarat and MP routes.</h3>
+    <p>Valid till 30 Sep</p>
+<span>BUS200</span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+
+
+
+
+  <div class="offerBox boxFour" >
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 4.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 200 in Delhi, Rajasthan, RON.</h3>
+    <p>Valid till 30 Sep</p>
+<span>RB200</span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+
+
+  <div class="offerBox boxFive" >
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 5.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 200 in Delhi, Rajasthan, RON.</h3>
+    <p>Valid till 30 Sep</p>
+<span>RB200</span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+  <div class="offerBox boxSix" >
+    <div class="Offerlogo">
+      <img src="./assets/trending offer 6.png" alt="TrandingOffer">
+    </div>
+  <div class="offertext">
+    <span>BUS</span>
+    <h3> Save up to Rs 200 in Delhi, Rajasthan, RON.</h3>
+    <p>Valid till 30 Sep</p>
+<span>RB200</span> &nbsp;&nbsp;&nbsp;<i class="fa-regular fa-copy"></i>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========== Start SectionBus Container ========== -->
+ <section class="BusContainer">
+  <div class="busContainerRows">
+  <div class="busTextContainer">
+    <div class="BusheadingText">
+      <h1>NOW, <span>GET MORE THAN JUST BUS</span> TICKETS WITH REDBUS!</h1>
+    </div>
+      <div class="busRental">
+    <ul id="busRentalDIv">
+      <span id="underline"></span>
+      <li ><span><img src="./assets/ryde_vertical.svg" alt=""></span><h4 style="color: #d84e55;">Cab/Bus Rental</h4></li>
+      <li> <span id="Divide"><hr></span></li>
+      <li><span><img src="./assets/rail_vertical.svg" alt=""></span><h4>Trains Tickets</h4></li>
+    </ul>
+    <p>Rent Cabs, Tempo Travellers & Buses with best drivers</p>
+  </div>
+  <div class="smallCars">
+    <ul id="BusBook">
+      <li><span><img src="./assets/ryde_car.svg" alt=""></span> <span>Outstation</span></li>
+      <li><span><img src="./assets/ryde_car_hourly.svg" alt=""></span> <span>Hourly Rental</span></li>
+      <li><span><img src="./assets/ryde_airport_transport.svg" alt=""></span> <span>Airport Transfers</span></li>
+    </ul>
+    <ul id="TrainBook">
+      <li><span><img src="./assets/ryde_car_hourly.svg" alt=""></span> <span>Retail Confirm</span></li>
+      <li><span><img src="./assets/ryde_car_hourly.svg" alt=""></span> <span>Month Rental</span></li>
+      <li><span><img src="./assets/ryde_airport_transport.svg" alt=""></span> <span>Airport Booking</span></li>
+    </ul>
+   
+  </div>
+    <button class="BookCab"><h3>Book Cab/Bus Renta </h3><img src="./assets/right arrow.png" alt=""></button>
+  </div>
+ 
+
+  <div class="busImageContainer">
+    <img src="./assets/rydePop.svg" alt="BusImages">
+  </div>
+  </div>
+ </section>
+
+<!-- ========== End SectionBus Container ========== -->
+
+<!-- ========== End Offer ========== -->
+ <!-- ========== End Destop View ========== -->
+  </body>
+<script src="app.js"></script>
+</html>
